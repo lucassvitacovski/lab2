@@ -18,6 +18,5 @@ public class ClientValidator extends Validator<Client> {
             throw new ValidatorException("Email is mandatory");
         }
 
-
     }
 }

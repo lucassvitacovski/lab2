@@ -2,7 +2,7 @@ package ro.ubb.exam.Domain;
 
 public class Client extends  Entity<Long> {
 
-    private String name, addres, email;
+    private String name, email;
     private int phone;
 
     public Client(String name, String email, int phone) {
@@ -43,8 +43,5 @@ public class Client extends  Entity<Long> {
                 ", phone=" + phone +
                 '}';
     }
-
-
-
 
 }
